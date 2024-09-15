@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jeon's project</title>
+        <meta charset="utf-8">
+    </head>
+    <!-- 폰트 이름에 띄어쓰기가 들어가면 'Noto Sans Korean'과 같이 작은 따옴표로 감싸줘야함-->
+    <body style ="color:#e24332; font-family:Arial, AppleGothic, 돋움, sans-serif; margin:0">
+        <!-- 영역 나누기: div 태그 (단지 영역만 구분할 뿐 원본에 보이는 것은 없음/ 보이지 않는 박스임)
+         span태그: div와 같이 영역을 나눠주는 태그
+         "backround-color: " 이 방식이 css임
+         body태그에 color속성 추가 시 페이지 전체 글자 색 바뀜-->
+        <div style="background-color: rgb(108, 113, 218)">
+            <h1 style="color: #c5de9e; text-align: center">WELCOME <span style="font-weight: 200">MY PAGE</span></h1>
+        </div>
+        <!--h1은 큰제목 h2, h3 ...로 갈수록 작은 제목
+        크기는 h1이 가장 큼 !-->
+        <div style="background-color: #7adaad">
+        <h2>생산성을 높여줄 유닉스 커맨드 꿀팁</h2>
+        <!-- <p>태그는 하나의 단락을 의미함(p태그를 사용하지 않으면 코드에 나눠져있더라도 실제로는 연결되어 있음)
+        한 문단 안에서 줄바꿈을 하고 싶을때는 문장 끝에 <br>태그 사용
+        본문에 <head>라는 표현을 넣고 싶을때는  &lt;head&gt;와 같이 사용해야 함 / &lt:< , &gt:>      
+        
+        하나의 태그에 여러 속성을 추가하려면 ;으로 구분    
+        
+        pdding: 40px 10px -> 세로여백 40 가로여백10 
+        pading: 40px 세로 가로 각각 40-->
+        
+        <p style="background-color: #b7c2ef; color:#000000; padding: 20px 10px">
+            생산성을 높여줄 유닉스 커맨드 꿀팁
+            생각만하면 모든게 이루어진다! 꿈 같은 이야기죠? <br>
+            하지만 유닉스 커맨드를 사용하면 더 이상 꿈이 아니랍니다. 마우스 대신에 유닉스 명령어들을 사용하면 복잡한 일도 한 번에 뚝딱하거든요.
+            </div>
+         </p>
+        <p>유닉스 커맨드를 사용할 때 알아두면 좋은, 작업 효율성을 UP! UP! 시켜주는 꿀팁 몇 가지를 준비해봤으니까, 한 번 살펴보세요!</p>
+        <!--외부링크 이동: <a herf = '주소'>    -->
+        <a href = 'https://www.naver.com/' style="color:#e3c5c5">자세히 보기</a>
+        
+        <div>
+        <h2 style="font-size: 20px;">머신 러닝을 통한 추천 시스템 (내용 기반, 협업 필터링)</h2>
+        <!-- 이미지 넣기 src에 이미지 주소or파일 경로 입력
+        크기는 style = "width: 700px; height:350px"와 같이 설정
+        단, 위와 같은 방식은 이미지가 700,350으로 고정됨 -> %로 조절 가능
+        width: 100% height: 300로 설정하면 길이가 고정되므로 이질적임 -->
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F003%2F2024%2F08%2F10%2FNISI20240809_0001624633_web_20240809110430_20240810135315345.jpg&type=a340" style="width: 100%">
+        </div>
+        <div>
+            <h2>Tips & Tricks: HTML 코드 편하게 입력하는 법</h2>
+        </div>
+        <div>
+        <h2>코둥이 퀴즈</h2>
+        </div>
+        
+
+
+    </body>
+</html>
